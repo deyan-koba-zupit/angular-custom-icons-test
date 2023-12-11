@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?06c6e558c87ca73790b2f94419f40b0c#iefix") format("embedded-opentype"),
-url("./icons.woff2?06c6e558c87ca73790b2f94419f40b0c") format("woff2"),
-url("./icons.woff?06c6e558c87ca73790b2f94419f40b0c") format("woff");
+    src: url("./icons.eot?1927b0a5996f664bac835b29a4790688#iefix") format("embedded-opentype"),
+url("./icons.woff2?1927b0a5996f664bac835b29a4790688") format("woff2"),
+url("./icons.woff?1927b0a5996f664bac835b29a4790688") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -16,22 +16,22 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-c-sharp:before {
+.icon-docker:before {
     content: "\f101";
 }
-.icon-docker:before {
+.icon-graphql:before {
     content: "\f102";
 }
-.icon-graphql:before {
+.icon-kubernetes:before {
     content: "\f103";
 }
-.icon-html:before {
+.icon-programming-languages-c-sharp:before {
     content: "\f104";
 }
-.icon-javascript:before {
+.icon-programming-languages-html:before {
     content: "\f105";
 }
-.icon-kubernetes:before {
+.icon-programming-languages-javascript:before {
     content: "\f106";
 }
 .icon-typescript:before {
