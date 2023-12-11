@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?06c6e558c87ca73790b2f94419f40b0c#iefix") format("embedded-opentype"),
+url("./icons.woff2?06c6e558c87ca73790b2f94419f40b0c") format("woff2"),
+url("./icons.woff?06c6e558c87ca73790b2f94419f40b0c") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-c-sharp:before {
+    content: "\f101";
+}
+.icon-docker:before {
+    content: "\f102";
+}
+.icon-graphql:before {
+    content: "\f103";
+}
+.icon-html:before {
+    content: "\f104";
+}
+.icon-javascript:before {
+    content: "\f105";
+}
+.icon-kubernetes:before {
+    content: "\f106";
+}
+.icon-typescript:before {
+    content: "\f107";
+}
