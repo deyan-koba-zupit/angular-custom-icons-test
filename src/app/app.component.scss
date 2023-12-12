@@ -1,5 +1,19 @@
+.content {
+  text-align: center;
+}
+
 .icons {
     display: flex;
     gap: 0.5rem;
     font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.danger {
+  color: orangered;
+}
+
+.success {
+  color: seagreen;
 }
