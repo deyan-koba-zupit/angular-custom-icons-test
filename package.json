@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "generate-icons": "node node_modules/fantasticon/bin/fantasticon src/assets/svg-icons -o src/assets/font-icons"
+    "generate-icons": "node node_modules/zupit-fantasticon/bin/fantasticon src/assets/svg-icons -o src/assets/font-icons"
   },
   "private": true,
   "dependencies": {
@@ -19,10 +19,10 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "fantasticon": "2.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.2"
+    "zone.js": "~0.14.2",
+    "zupit-fantasticon": "1.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.0.6",
